@@ -1,0 +1,37 @@
+<information>
+    <employeee>
+        <id>1</id>
+        <name>John Doe</name>
+        <address>
+            <flat> </flat>
+            <house>38</house>
+            <road>3</road>
+            <area>Banani</area>
+            <district>Dhaka</district>
+        </address>
+    </employeee>
+
+    <employeee>
+        <id>2</id>
+        <name>Mark</name>
+        <address>
+        <flat> A/1 </flat>
+            <house>20</house>
+            <road>18</road>
+            <area>Mirpur</area>
+            <district>Dhaka</district>
+        </address>
+    </employeee>
+
+    <employeee>
+        <id>3</id>
+        <name>Ala Voski</name>
+        <address>
+            <flat></flat>
+            <house>38</house>
+            <road>3</road>
+            <area>Motijheel</area>
+            <district>Dhaka</district>
+        </address>
+    </employeee>  
+</information>

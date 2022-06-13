@@ -1,0 +1,31 @@
+<admission>
+    <information>
+        <serial>23</serial>
+        <name>John Carter</name>
+        <admissiondate>
+            <date>25</date>
+            <month>12</month>
+            <year>2015</year>
+        </admissiondate>
+    </information>
+
+    <information>
+        <serial>29</serial>
+        <name>Bob Marshal</name>
+        <admissiondate>
+            <date>13</date>
+            <month>01</month>
+            <year>1999</year>
+        </admissiondate>
+    </information>
+
+    <information>
+        <serial>17</serial>
+        <name>Clark Kent</name>
+        <admissiondate>
+            <date>17</date>
+            <month>06</month>
+            <year>2005</year>
+        </admissiondate>
+    </information>
+</admission>
