@@ -75,8 +75,8 @@
 
             <tr>
                 <td>
-                    <input type="radio" name="usertype">User
-                    <input type="radio" name="usertype">Admin
+                    <input type="radio" name="usertype" value="user">User
+                    <input type="radio" name="usertype" value="admin">Admin
                 </td>
             </tr>
             <tr>
