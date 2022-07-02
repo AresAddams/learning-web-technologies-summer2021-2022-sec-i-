@@ -15,8 +15,6 @@
 			if($fname == "create"){
 				header('location: home.php');	
 			}else{
-				header('location: login.html');
+				header('location: ../View/login.html');
 			}
 	}
-
-?>

@@ -52,7 +52,7 @@ require_once('../controller/header.php');
                         </td>
                     </tr>
 
-                    <!-- <tr>
+                    <tr>
                         <td>
                             User Type
                         </td>
@@ -72,7 +72,7 @@ require_once('../controller/header.php');
                             <input type="radio" name="usertype">Staff
 
                         </td>
-                    </tr> -->
+                    </tr>
                     <tr>
                         <td>
                             <hr>
