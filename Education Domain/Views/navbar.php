@@ -17,7 +17,7 @@ require '../Controllers/vaildUsers.php';
             <th></th>
             <th><a href="Course.php">Course</a></th>
             <th></th>
-            <th><a href="Faculty.php">Student Grade</a></th>
+            <th><a href="Studentgrade.php">Student Grade</a></th>
             <th></th>
             <th><a href="Student.php">Student</a></th>
             <th></th>
