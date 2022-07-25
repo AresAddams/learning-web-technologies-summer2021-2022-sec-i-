@@ -32,6 +32,30 @@ require_once('../controller/header.php');
                     <td><input type="email" name="email" value=""></td>
                 </tr>
                 <tr>
+                    <td>
+                        User Type
+                    </td>
+                    <td>
+
+                        <input type="radio" name="usertype" value="admin">Admin
+                        <input type="radio" name="usertype" value="faculty">Faculty
+                        <input type="radio" name="usertype" value="student">Student
+                        <input type="radio" name="usertype" value="staff">Staff
+
+                    </td>
+
+                </tr>
+                <tr>
+                    <!-- <td>
+
+                        <input type="radio" name="usertype" value="admin">Admin
+                        <input type="radio" name="usertype" value="faculty">Faculty
+                        <input type="radio" name="usertype" value="student">Student
+                        <input type="radio" name="usertype" value="staff">Staff
+
+                    </td> -->
+                </tr>
+                <tr>
                     <td></td>
                     <td><input type="submit" name="" value="Submit"></td>
                 </tr>

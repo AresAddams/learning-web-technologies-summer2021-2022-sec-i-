@@ -1,0 +1,1 @@
+001|Alex|Male|alex@123|1243435|Lahore|002|Altair|Male|altair@gmail.com|85823|Mumbai

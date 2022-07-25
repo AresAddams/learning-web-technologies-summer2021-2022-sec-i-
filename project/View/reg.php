@@ -66,10 +66,10 @@ require_once('../controller/header.php');
                     <tr>
                         <td>
 
-                            <input type="radio" name="usertype">Admin
-                            <input type="radio" name="usertype">Faculty
-                            <input type="radio" name="usertype">Student
-                            <input type="radio" name="usertype">Staff
+                            <input type="radio" name="usertype" value="admin">Admin
+                            <input type="radio" name="usertype" value="faculty">Faculty
+                            <input type="radio" name="usertype" value="student">Student
+                            <input type="radio" name="usertype" value="staff">Staff
 
                         </td>
                     </tr>

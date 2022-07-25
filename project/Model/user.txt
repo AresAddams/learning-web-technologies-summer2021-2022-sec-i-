@@ -1,1 +1,4 @@
-Ares|1234|arifinhussain001@gmail.com
+Diana|1234|arifinhussain001@gmail.com|admin
+test|1234|y.mgroup2001@gmail.com|faculty
+Ares|1234|arifinhussain001@gmail.com|faculty
+alex|1234|arifinhussain001@gmail.com|admin

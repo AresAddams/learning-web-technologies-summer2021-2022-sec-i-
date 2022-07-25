@@ -1,4 +1,4 @@
-<?php 
-	if(!isset($_COOKIE['status'])){
-		header('location: login.html');
-	}
+<?php
+if (!isset($_COOKIE['status'])) {
+	header('location: login.html');
+}
