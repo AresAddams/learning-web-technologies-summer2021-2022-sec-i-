@@ -3,7 +3,6 @@
 <head>
 	<title>Login form</title>
 </head>
-
 <body>
 	<form method="POST" action="controllers/loginCheck.php">
 		<center style="margin:200px;">
@@ -14,8 +13,6 @@
 						American International University-Bangladesh
 
 					</h1>
-
-
 					<table>
 						<tr>
 							<td><b>Username:</b></td>
@@ -40,10 +37,11 @@
 						</tr>
 
 					</table>
-				</form>
+
 
 			</fieldset>
 		</center>
+	</form>
 </body>
 
 </html>

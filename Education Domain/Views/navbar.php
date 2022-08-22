@@ -6,42 +6,39 @@ require '../Controllers/vaildUsers.php';
 
 <head>
     <title>DashBoard</title>
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
+
 <body>
-    <fieldset>
-        <legend>American International University</legend>
-        <table>
 
-            <th><a href="NoticeList.php">Notice</a></th>
-            <th></th>
-            <th><a href="Course.php">Course</a></th>
-            <th></th>
-            <th><a href="Studentgrade.php">Student Grade</a></th>
-            <th></th>
-            <th><a href="Student.php">Student</a></th>
-            <th></th>
-            <th></th>
-            <th><a href="../Controllers/logout.php">Logout</a></th>
+    <div class="navbar">
+        <div class="part1">
+            <b class="aiub">American International University Bangladesh</b>
+        </div>
 
-            <th rowspan="4" align="right"> Welcome,
-                <?php
-                if (isset($_SESSION['user'])) {
-                    print_r($_SESSION['user']['username']);
-                }
-                ?>
-            </th>
-            </tr>
-            <tr>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-                <td></td>
-            </tr>
+
+        <div class="part2">
+            <table>
+                <th><a href="NoticeList.php">Notice</a></th>
+                <th></th>
+                <th><a href="Course.php">Course</a></th>
+                <th></th>
+                <th><a href="Studentgrade.php">Student Grade</a></th>
+                <th></th>
+                <th><a href="Student.php">Student</a></th>
+                <th></th>
+                <th></th>
+                <th><a href="../Controllers/logout.php">Logout</a></th>
+
+                <th rowspan="4" align="right">
+                    Welcome,
+                    <?php
+                    if (isset($_SESSION['user'])) {
+                        print_r($_SESSION['user']['username']);
+                    }
+                    ?>
+        </div>
 
         </table>
-    </fieldset>
+    </div>

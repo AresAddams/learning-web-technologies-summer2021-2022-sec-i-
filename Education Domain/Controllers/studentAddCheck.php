@@ -8,7 +8,7 @@ if (isset($_REQUEST['submit'])) {
 	$gender = $_POST['gender'];
 	$email = $_POST['email'];
 	$contact = $_POST['contact'];
-	$CGPA = $_POST['CGPA'];
+
 
 
 
